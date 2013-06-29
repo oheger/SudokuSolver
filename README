@@ -1,0 +1,16 @@
+Sudoku Solver
+=============
+
+This is a very simple Java application that calculates a solution for a
+sudoku (http://en.wikipedia.org/wiki/Sudoku).
+
+The application has a simple UI allowing the user to enter pre-given
+numbers in the corresponding fields. Pressing the Solve button fills out the
+remaining fields.
+
+The project is build using Apache Maven (http://maven.apache.org/). The
+command 
+  mvn install
+creates a jar which can be directly used to start the application:
+  java -jar sudoku-solver-<version>.jar
+where <version> is the current version.
